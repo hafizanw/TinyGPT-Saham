@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "post_processor": null,
+  "decoder": {
+    "type": "ByteLevel",
+    "add_prefix_space": true,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<unk>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<unk>": 0,
+      ",": 1,
+      "-": 2,
+      ".": 3,
+      "A": 4,
+      "B": 5,
+      "C": 6,
+      "D": 7,
+      "E": 8,
+      "F": 9,
+      "G": 10,
+      "H": 11,
+      "I": 12,
+      "J": 13,
+      "K": 14,
+      "L": 15,
+      "M": 16,
+      "N": 17,
+      "O": 18,
+      "P": 19,
+      "R": 20,
+      "S": 21,
+      "T": 22,
+      "U": 23,
+      "V": 24,
+      "X": 25,
+      "a": 26,
+      "b": 27,
+      "c": 28,
+      "d": 29,
+      "e": 30,
+      "f": 31,
+      "g": 32,
+      "h": 33,
+      "i": 34,
+      "j": 35,
+      "k": 36,
+      "l": 37,
+      "m": 38,
+      "n": 39,
+      "o": 40,
+      "p": 41,
+      "r": 42,
+      "s": 43,
+      "t": 44,
+      "u": 45,
+      "v": 46,
+      "w": 47,
+      "y": 48,
+      "Ċ": 49,
+      "Ġ": 50,
+      "an": 51,
+      "er": 52,
+      "en": 53,
+      "Ġp": 54,
+      "si": 55,
+      "sa": 56,
+      "Ġm": 57,
+      "ha": 58,
+      "al": 59
+    },
+    "merges": [
+      [
+        "a",
+        "n"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "Ġ",
+        "p"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "s",
+        "a"
+      ],
+      [
+        "Ġ",
+        "m"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "a",
+        "l"
+      ]
+    ]
+  }
+}

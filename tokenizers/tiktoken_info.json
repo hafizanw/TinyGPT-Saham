@@ -1,0 +1,5 @@
+{
+  "encoding_name": "cl100k_base",
+  "vocab_size": 100277,
+  "note": "Tiktoken adalah tokenizer pretrained (tidak dilatih ulang dari corpus)."
+}
